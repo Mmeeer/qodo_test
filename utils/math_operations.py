@@ -17,15 +17,15 @@ def add(a, b):
     """
     return a + b
 
-def multiply(a, b):
+def subtract(a, b):
     """
-    Multiply the second number from the first and return the result.
+    Subtract the second number from the first and return the result.
     
     Args:
         a: First number
         b: Second number
         
     Returns:
-        The difference (a * b)
+        The difference (a - b)
     """
-    return a * b
+    return a - b

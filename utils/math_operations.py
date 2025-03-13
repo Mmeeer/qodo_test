@@ -42,3 +42,16 @@ def multiply(a, b):
         The product of a and b
     """
     return a * b
+
+def devide(a, b):
+    """
+    Devide the first number by the second and return the result.
+    
+    Args:
+        a: First number
+        b: Second number"
+    
+    Returns:
+        The division of a by b" 
+    """
+    return a / b

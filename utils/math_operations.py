@@ -43,15 +43,17 @@ def multiply(a, b):
     """
     return a * b
 
-def devide(a, b):
+def divide(a, b):
     """
-    Devide the first number by the second and return the result.
+    Divide the first number by the second and return the result.
     
     Args:
         a: First number
-        b: Second number"
+        b: Second number
     
     Returns:
-        The division of a by b" 
+        The division of a by b
     """
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
     return a / b

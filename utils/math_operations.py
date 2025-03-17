@@ -29,3 +29,16 @@ def subtract(a, b):
         The difference (a - b)
     """
     return a - b
+
+def divide(a, b):
+    """
+    Divide the first number by the second and return the result.
+    
+    Args:
+        a: First number
+        b: Second number"
+
+    Returns:
+        The difference (a / b)
+    """
+    return a/b
